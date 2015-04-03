@@ -1,0 +1,17 @@
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\Task2.exe.config
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\Task2.exe
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\Task2.pdb
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\MathClass.dll
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\bin\Debug\MathClass.pdb
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\obj\Debug\Task2.exe
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\obj\Debug\Task2.pdb
+e:\Tasks\Task2\Task2\bin\Debug\Task2.exe.config
+e:\Tasks\Task2\Task2\obj\Debug\Task2.exe
+e:\Tasks\Task2\Task2\obj\Debug\Task2.pdb
+e:\Tasks\Task2_\Task2\bin\Debug\Task2.exe.config
+e:\Tasks\Task2_\Task2\obj\Debug\Task2.exe
+e:\Tasks\Task2_\Task2\obj\Debug\Task2.pdb
+D:\GIT\Task2_MathMethods\Task2\bin\Debug\Task2.exe.config
+D:\GIT\Task2_MathMethods\Task2\obj\Debug\Task2.exe
+D:\GIT\Task2_MathMethods\Task2\obj\Debug\Task2.pdb

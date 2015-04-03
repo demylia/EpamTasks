@@ -1,0 +1,7 @@
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\UnitTestProject1\bin\Debug\Task3.dll
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\UnitTestProject1\bin\Debug\Task3.pdb
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\UnitTestProject1\obj\Debug\CalculateBLTest.csprojResolveAssemblyReference.cache
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

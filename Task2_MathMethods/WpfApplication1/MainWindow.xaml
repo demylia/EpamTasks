@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Calculate Root" HorizontalAlignment="Left" Margin="232,45,0,0" VerticalAlignment="Top" Width="97" Click="Calculate_Click"/>
+        <TextBox Name="tbxResult1" HorizontalAlignment="Left" Height="23" Margin="344,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbxNumber1" HorizontalAlignment="Left" Height="23" Margin="23,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <Button Content="Convert to Binary
+                " HorizontalAlignment="Left" Margin="232,101,0,0" VerticalAlignment="Top" Width="97" Click="ConvertString_Click"/>
+        <TextBox Name="tbxResult2" HorizontalAlignment="Left" Height="23" Margin="344,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbxNumber2" HorizontalAlignment="Left" Height="23" Margin="23,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="2"/>
+        <TextBox x:Name="tbxAccuracy" HorizontalAlignment="Left" Height="23" Margin="149,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" Text="0.001" />
+        <Label Content="Number:" HorizontalAlignment="Left" Margin="23,15,0,0" VerticalAlignment="Top"/>
+        <Label Content="Accuracy:" HorizontalAlignment="Left" Margin="149,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.9,0.538"/>
+        <Label Content="Number:" HorizontalAlignment="Left" Margin="23,74,0,0" VerticalAlignment="Top"/>
+        <Label Content="Result:" HorizontalAlignment="Left" Margin="344,14,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.9,0.538"/>
+        <TextBox x:Name="tbxDegree" HorizontalAlignment="Left" Height="23" Margin="84,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" Text="2"/>
+        <Label Content="Degree:" HorizontalAlignment="Left" Margin="84,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.9,0.538" Width="52"/>
+
+    </Grid>
+</Window>

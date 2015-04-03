@@ -1,0 +1,5 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Task3\Task3\bin\Debug\Task3.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task3\Task3\bin\Debug\Task3.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task3\Task3\obj\Debug\Task3.csprojResolveAssemblyReference.cache
+c:\users\дейнека\documents\visual studio 2013\Projects\Task3\Task3\obj\Debug\Task3.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task3\Task3\obj\Debug\Task3.pdb

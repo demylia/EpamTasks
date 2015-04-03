@@ -1,0 +1,11 @@
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\TringleConsoleApp\bin\Debug\TringleConsoleApp.exe.config
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\TringleConsoleApp\bin\Debug\TringleConsoleApp.exe
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\TringleConsoleApp\bin\Debug\TringleConsoleApp.pdb
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\TringleConsoleApp\bin\Debug\Tringle.dll
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\TringleConsoleApp\bin\Debug\Tringle.pdb
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\TringleConsoleApp\obj\Debug\TringleConsoleApp.csprojResolveAssemblyReference.cache
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\TringleConsoleApp\obj\Debug\TringleConsoleApp.exe
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\TringleConsoleApp\obj\Debug\TringleConsoleApp.pdb
+e:\Tasks\Task4_Tringle\TringleConsoleApp\bin\Debug\TringleConsoleApp.exe.config
+e:\Tasks\Task4_Tringle\TringleConsoleApp\obj\Debug\TringleConsoleApp.exe
+e:\Tasks\Task4_Tringle\TringleConsoleApp\obj\Debug\TringleConsoleApp.pdb

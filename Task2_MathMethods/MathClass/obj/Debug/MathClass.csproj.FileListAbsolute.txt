@@ -1,0 +1,5 @@
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\MathClass\bin\Debug\MathClass.dll
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\MathClass\bin\Debug\MathClass.pdb
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\MathClass\obj\Debug\MathClass.dll
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\MathClass\obj\Debug\MathClass.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task2\MathClass\obj\Debug\MathClass.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\UnitTest\bin\Debug\UnitTest.dll
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\UnitTest\bin\Debug\UnitTest.pdb
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\UnitTest\bin\Debug\Tringle.dll
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\UnitTest\bin\Debug\Tringle.pdb
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\UnitTest\obj\Debug\UnitTest.dll
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\UnitTest\obj\Debug\UnitTest.pdb

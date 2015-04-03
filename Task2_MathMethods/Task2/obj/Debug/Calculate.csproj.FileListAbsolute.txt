@@ -1,0 +1,6 @@
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task2\Task2\bin\Debug\Task2.exe.config
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task2\Task2\obj\Debug\Task2.exe
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task2\Task2\obj\Debug\Task2.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task2\Task2\bin\Debug\Task2.exe
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task2\Task2\bin\Debug\Task2.pdb
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Task2\Task2\obj\Debug\Calculate.csprojResolveAssemblyReference.cache

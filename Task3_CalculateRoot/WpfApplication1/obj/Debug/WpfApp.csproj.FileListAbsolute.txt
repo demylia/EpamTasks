@@ -1,0 +1,30 @@
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\WpfApplication1\obj\Debug\WpfApplication1.exe
+c:\Users\Дейнека\documents\visual studio 2013\Projects\Task3\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\bin\Debug\Task3.dll
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\bin\Debug\Task3.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\obj\Debug\WpfApp.Properties.Resources.resources
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task3\WpfApplication1\obj\Debug\WpfApp.csproj.GenerateResource.Cache
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\WpfApplication1.exe
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\WpfApplication1.pdb
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\bin\Debug\WpfApplication1.exe
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\bin\Debug\WpfApplication1.pdb
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\bin\Debug\Task3.dll
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\bin\Debug\Task3.pdb
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\MainWindow.baml
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\MainWindow.g.cs
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\App.g.cs
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\WpfApp.Properties.Resources.resources
+e:\Tasks\Task3_CalculateRoot\WpfApplication1\obj\Debug\WpfApp.csproj.GenerateResource.Cache

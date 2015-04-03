@@ -1,0 +1,14 @@
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task5\Task5\bin\Debug\Task5.dll
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task5\Task5\bin\Debug\Task5.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task5\Task5\obj\Debug\Task5.dll
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task5\Task5\obj\Debug\Task5.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task5\Task5\obj\Debug\Line.Resource.resources
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task5\Task5\obj\Debug\Task5.csproj.GenerateResource.Cache
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task5\Task5\obj\Debug\Task5.csprojResolveAssemblyReference.cache
+E:\Tasks\Task5_VectorPolynome\Task5\bin\Debug\Task5.dll
+E:\Tasks\Task5_VectorPolynome\Task5\bin\Debug\Task5.pdb
+E:\Tasks\Task5_VectorPolynome\Task5\obj\Debug\Task5.csprojResolveAssemblyReference.cache
+E:\Tasks\Task5_VectorPolynome\Task5\obj\Debug\MathObjects.Resource.resources
+E:\Tasks\Task5_VectorPolynome\Task5\obj\Debug\Task5.csproj.GenerateResource.Cache
+E:\Tasks\Task5_VectorPolynome\Task5\obj\Debug\Task5.dll
+E:\Tasks\Task5_VectorPolynome\Task5\obj\Debug\Task5.pdb

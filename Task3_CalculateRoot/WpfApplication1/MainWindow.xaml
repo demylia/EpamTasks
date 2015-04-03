@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Calculate NOD" HorizontalAlignment="Left" Margin="232,45,0,0" VerticalAlignment="Top" Width="97" Click="Calculate_Click"/>
+        <TextBox x:Name="tbxResult1" HorizontalAlignment="Left" Height="23" Margin="344,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxNumber1" HorizontalAlignment="Left" Height="23" Margin="23,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"/>
+        <Button Content="Calculate NOD and Time                 " HorizontalAlignment="Left" Margin="188,101,0,0" VerticalAlignment="Top" Width="141" Click="Button_Click"/>
+        <TextBox x:Name="tbxResult2" HorizontalAlignment="Left" Height="23" Margin="344,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+        <Label Content="Min 2 numbers separated by commas:" HorizontalAlignment="Left" Margin="23,15,0,0" VerticalAlignment="Top"/>
+        <Label Content="Result:" HorizontalAlignment="Left" Margin="344,14,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.9,0.538"/>
+        <TextBox x:Name="tbxResult3" HorizontalAlignment="Left" Height="23" Margin="419,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="71"/>
+        <TextBox x:Name="tbxNumber2" HorizontalAlignment="Left" Height="23" Margin="23,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <Label Content="Number1:" HorizontalAlignment="Left" Margin="23,69,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbxNumber3" HorizontalAlignment="Left" Height="23" Margin="120,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" Text="2"/>
+        <Label Content="Number2:" HorizontalAlignment="Left" Margin="120,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.9,0.538" Width="65"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Tringle\Tringle\bin\Debug\Tringle.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Tringle\Tringle\bin\Debug\Tringle.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Tringle\Tringle\obj\Debug\Tringle.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Tringle\Tringle\obj\Debug\Tringle.pdb
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\Tringle\obj\Debug\Figure.Resource.resources
+C:\Users\Дейнека\documents\visual studio 2013\Projects\Tringle\Tringle\obj\Debug\Figure.csproj.GenerateResource.Cache
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Tringle\Tringle\obj\Debug\Figure.csprojResolveAssemblyReference.cache
