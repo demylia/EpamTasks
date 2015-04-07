@@ -56,15 +56,22 @@ namespace Timer
         }
         public void Start(double time,double step)
         {
-            double counter = step;
-            TimerEndEventArgs arg = new TimerEndEventArgs(time - counter);
+           
+            TimerEndEventArgs arg = new TimerEndEventArgs(time - step);
+            for (double counter = step; counter < time; counter += step)
+            {
+                Thread.Sleep((int)step*100);
+                arg.timer = time - counter;
+                OnTick(this, arg);
+            }
+            /*double counter = step;
             while (counter < time)
             {
                 Thread.Sleep((int)step*100);
                 arg = new TimerEndEventArgs(time - counter);
                 OnTick(this, arg);
                 counter += step;
-            }
+            }*/
 
             OnTimeEnd(this, arg);
 
