@@ -1,0 +1,8 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\ConsoleApp\bin\Debug\ConsoleApp.exe
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\ConsoleApp\bin\Debug\ConsoleApp.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\ConsoleApp\obj\Debug\ConsoleApp.exe
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\ConsoleApp\obj\Debug\ConsoleApp.pdb
+c:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task10\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+c:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task10\ConsoleApp\bin\Debug\Timer.dll
+c:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Task10\ConsoleApp\bin\Debug\Timer.pdb
