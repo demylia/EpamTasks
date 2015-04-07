@@ -1,0 +1,15 @@
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\bin\Debug\WpfApp.exe.config
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\MainWindow.baml
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\App.g.cs
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\WpfApp.g.resources
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.Cache
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\bin\Debug\WpfApp.exe
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\bin\Debug\WpfApp.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\bin\Debug\Task8.dll
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\bin\Debug\Task8.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\WpfApp.exe
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\WpfApp\obj\Debug\WpfApp.pdb

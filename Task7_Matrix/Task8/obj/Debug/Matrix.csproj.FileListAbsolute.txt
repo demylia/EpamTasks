@@ -1,0 +1,6 @@
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\Task8\bin\Debug\Task8.dll
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\Task8\bin\Debug\Task8.pdb
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\Task8\obj\Debug\MatrixSpace.Resource.resources
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\Task8\obj\Debug\Matrix.csproj.GenerateResource.Cache
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\Task8\obj\Debug\Task8.dll
+C:\Users\Дейнека\Documents\Visual Studio 2013\Projects\Matrix\Task8\obj\Debug\Task8.pdb

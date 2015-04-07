@@ -1,0 +1,5 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\Timer\bin\Debug\Timer.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\Timer\bin\Debug\Timer.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\Timer\obj\Debug\Timer.csprojResolveAssemblyReference.cache
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\Timer\obj\Debug\Timer.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task10\Timer\obj\Debug\Timer.pdb
