@@ -1,0 +1,9 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\AbstractFactory\bin\Debug\AbstractFactory.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\AbstractFactory\bin\Debug\AbstractFactory.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\AbstractFactory\obj\Debug\AbstractFactory.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\AbstractFactory\obj\Debug\AbstractFactory.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory\bin\Debug\AbstractFactory.dll
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory\bin\Debug\AbstractFactory.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory\obj\Debug\AbstractFactory.dll
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory\obj\Debug\AbstractFactory.pdb

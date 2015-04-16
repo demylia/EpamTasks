@@ -1,0 +1,1 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\BinaryTree\bin\Debug\BinaryTree.exe.config

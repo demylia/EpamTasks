@@ -1,0 +1,8 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\AbstractFactory1Lib\bin\Debug\AbstractFactory1Lib.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\AbstractFactory1Lib\bin\Debug\AbstractFactory1Lib.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\AbstractFactory1Lib\obj\Debug\AbstractFactory1Lib.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\AbstractFactory1Lib\obj\Debug\AbstractFactory1Lib.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory1Lib\bin\Debug\AbstractFactory1Lib.dll
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory1Lib\bin\Debug\AbstractFactory1Lib.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory1Lib\obj\Debug\AbstractFactory1Lib.dll
+d:\GIT\Task11_12_BinaryTree&LINQ\AbstractFactory1Lib\obj\Debug\AbstractFactory1Lib.pdb

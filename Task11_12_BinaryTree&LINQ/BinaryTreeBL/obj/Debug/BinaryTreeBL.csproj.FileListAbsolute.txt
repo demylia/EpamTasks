@@ -1,0 +1,10 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\BinaryTreeBL\bin\Debug\BinaryTreeBL.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\BinaryTreeBL\bin\Debug\BinaryTreeBL.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\BinaryTreeBL\obj\Debug\BinaryTreeBL.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\BinaryTreeBL\obj\Debug\BinaryTreeBL.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\BinaryTreeBL\obj\Debug\BinaryTreeBL.csprojResolveAssemblyReference.cache
+d:\GIT\Task11_12_BinaryTree&LINQ\BinaryTreeBL\bin\Debug\BinaryTreeBL.dll
+d:\GIT\Task11_12_BinaryTree&LINQ\BinaryTreeBL\bin\Debug\BinaryTreeBL.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\BinaryTreeBL\obj\Debug\BinaryTreeBL.csprojResolveAssemblyReference.cache
+d:\GIT\Task11_12_BinaryTree&LINQ\BinaryTreeBL\obj\Debug\BinaryTreeBL.dll
+d:\GIT\Task11_12_BinaryTree&LINQ\BinaryTreeBL\obj\Debug\BinaryTreeBL.pdb

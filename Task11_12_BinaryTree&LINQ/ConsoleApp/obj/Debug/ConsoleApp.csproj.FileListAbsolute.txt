@@ -1,0 +1,16 @@
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\ConsoleApp\bin\Debug\ConsoleApp.exe
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\ConsoleApp\bin\Debug\ConsoleApp.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\ConsoleApp\bin\Debug\BinaryTreeBL.dll
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\ConsoleApp\bin\Debug\BinaryTreeBL.pdb
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\ConsoleApp\obj\Debug\ConsoleApp.exe
+c:\users\дейнека\documents\visual studio 2013\Projects\Task11\ConsoleApp\obj\Debug\ConsoleApp.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+d:\GIT\Task11_12_BinaryTree&LINQ\ConsoleApp\obj\Debug\ConsoleApp.exe
+d:\GIT\Task11_12_BinaryTree&LINQ\ConsoleApp\obj\Debug\ConsoleApp.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\ConsoleApp\bin\Debug\ConsoleApp.exe
+d:\GIT\Task11_12_BinaryTree&LINQ\ConsoleApp\bin\Debug\ConsoleApp.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\ConsoleApp\bin\Debug\BinaryTreeBL.dll
+d:\GIT\Task11_12_BinaryTree&LINQ\ConsoleApp\bin\Debug\BinaryTreeBL.pdb
+d:\GIT\Task11_12_BinaryTree&LINQ\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
