@@ -1,0 +1,8 @@
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\test\bin\Debug\test.exe.config
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\test\bin\Debug\test.exe
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\test\bin\Debug\test.pdb
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\test\bin\Debug\task09.dll
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\test\bin\Debug\task09.pdb
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\test\obj\Debug\test.exe
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\test\obj\Debug\test.pdb

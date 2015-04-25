@@ -1,0 +1,7 @@
+c:\users\андрей\documents\visual studio 2013\Projects\task09\task09\bin\Debug\task09.dll
+c:\users\андрей\documents\visual studio 2013\Projects\task09\task09\bin\Debug\task09.pdb
+c:\users\андрей\documents\visual studio 2013\Projects\task09\task09\obj\Debug\task09.csprojResolveAssemblyReference.cache
+c:\users\андрей\documents\visual studio 2013\Projects\task09\task09\obj\Debug\task09.Resource.resources
+c:\users\андрей\documents\visual studio 2013\Projects\task09\task09\obj\Debug\task09.csproj.GenerateResource.Cache
+c:\users\андрей\documents\visual studio 2013\Projects\task09\task09\obj\Debug\task09.dll
+c:\users\андрей\documents\visual studio 2013\Projects\task09\task09\obj\Debug\task09.pdb

@@ -1,0 +1,7 @@
+C:\Users\Андрей\Documents\Visual Studio 2013\Projects\task09\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Андрей\Documents\Visual Studio 2013\Projects\task09\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Андрей\Documents\Visual Studio 2013\Projects\task09\UnitTest\bin\Debug\task09.dll
+C:\Users\Андрей\Documents\Visual Studio 2013\Projects\task09\UnitTest\bin\Debug\task09.pdb
+C:\Users\Андрей\Documents\Visual Studio 2013\Projects\task09\UnitTest\obj\Debug\TestNotePad.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Documents\Visual Studio 2013\Projects\task09\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Андрей\Documents\Visual Studio 2013\Projects\task09\UnitTest\obj\Debug\UnitTest.pdb

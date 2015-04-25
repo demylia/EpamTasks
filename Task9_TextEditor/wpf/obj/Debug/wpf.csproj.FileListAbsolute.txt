@@ -1,0 +1,45 @@
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\bin\Debug\wpf.exe.config
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\bin\Debug\wpf.exe
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\bin\Debug\wpf.pdb
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\bin\Debug\task09.dll
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\bin\Debug\task09.pdb
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\wpf.csprojResolveAssemblyReference.cache
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\MainWindow.baml
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\MainWindow.g.cs
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\App.g.cs
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\wpf_MarkupCompile.cache
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\wpf.g.resources
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\wpf.Properties.Resources.resources
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\wpf.csproj.GenerateResource.Cache
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\wpf.exe
+c:\Users\Андрей\documents\visual studio 2013\Projects\task09\wpf\obj\Debug\wpf.pdb
+D:\DataBase\task09\task09\wpf\obj\Debug\wpf.csprojResolveAssemblyReference.cache
+D:\DataBase\task09\task09\wpf\obj\Debug\MainWindow.baml
+D:\DataBase\task09\task09\wpf\obj\Debug\MainWindow.g.cs
+D:\DataBase\task09\task09\wpf\obj\Debug\App.g.cs
+D:\DataBase\task09\task09\wpf\obj\Debug\wpf_MarkupCompile.cache
+D:\DataBase\task09\task09\wpf\obj\Debug\wpf.g.resources
+D:\DataBase\task09\task09\wpf\obj\Debug\wpf.Properties.Resources.resources
+D:\DataBase\task09\task09\wpf\obj\Debug\wpf.csproj.GenerateResource.Cache
+D:\DataBase\task09\task09\wpf\bin\Debug\wpf.exe.config
+D:\DataBase\task09\task09\wpf\bin\Debug\wpf.exe
+D:\DataBase\task09\task09\wpf\bin\Debug\wpf.pdb
+D:\DataBase\task09\task09\wpf\bin\Debug\task09.dll
+D:\DataBase\task09\task09\wpf\bin\Debug\task09.pdb
+D:\DataBase\task09\task09\wpf\obj\Debug\wpf.exe
+D:\DataBase\task09\task09\wpf\obj\Debug\wpf.pdb
+e:\task09\task09\wpf\bin\Debug\wpf.exe.config
+e:\task09\task09\wpf\obj\Debug\wpf.exe
+e:\task09\task09\wpf\obj\Debug\wpf.pdb
+e:\task09\task09\wpf\bin\Debug\wpf.exe
+e:\task09\task09\wpf\bin\Debug\wpf.pdb
+e:\task09\task09\wpf\bin\Debug\task09.dll
+e:\task09\task09\wpf\bin\Debug\task09.pdb
+e:\task09\task09\wpf\obj\Debug\wpf.csprojResolveAssemblyReference.cache
+e:\task09\task09\wpf\obj\Debug\MainWindow.baml
+e:\task09\task09\wpf\obj\Debug\MainWindow.g.cs
+e:\task09\task09\wpf\obj\Debug\App.g.cs
+e:\task09\task09\wpf\obj\Debug\wpf_MarkupCompile.cache
+e:\task09\task09\wpf\obj\Debug\wpf.g.resources
+e:\task09\task09\wpf\obj\Debug\wpf.Properties.Resources.resources
+e:\task09\task09\wpf\obj\Debug\wpf.csproj.GenerateResource.Cache

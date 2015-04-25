@@ -1,0 +1,14 @@
+D:\DataBase\task09\task09\task09\bin\Debug\task09.dll
+D:\DataBase\task09\task09\task09\bin\Debug\task09.pdb
+D:\DataBase\task09\task09\task09\obj\Debug\TextEditorBL.Resource.resources
+D:\DataBase\task09\task09\task09\obj\Debug\Task9.csproj.GenerateResource.Cache
+D:\DataBase\task09\task09\task09\obj\Debug\task09.dll
+D:\DataBase\task09\task09\task09\obj\Debug\task09.pdb
+D:\DataBase\task09\task09\task09\obj\Debug\Task9.csprojResolveAssemblyReference.cache
+e:\task09\task09\task09\bin\Debug\task09.dll
+e:\task09\task09\task09\bin\Debug\task09.pdb
+e:\task09\task09\task09\obj\Debug\Task9.csprojResolveAssemblyReference.cache
+e:\task09\task09\task09\obj\Debug\TextEditorBL.Resource.resources
+e:\task09\task09\task09\obj\Debug\Task9.csproj.GenerateResource.Cache
+e:\task09\task09\task09\obj\Debug\task09.dll
+e:\task09\task09\task09\obj\Debug\task09.pdb
