@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Camera" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="CameraContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CameraSet" EntityType="Camera.Camera" />
+    <EntitySet Name="ControllerSet" EntityType="Camera.Controller" />
+    <AssociationSet Name="CameraController" Association="Camera.CameraController">
+      <End Role="Camera" EntitySet="CameraSet" />
+      <End Role="Controller" EntitySet="ControllerSet" />
+    </AssociationSet>
+    <EntitySet Name="UserCameraSet" EntityType="Camera.UserCamera" />
+    <AssociationSet Name="UserCameraCamera" Association="Camera.UserCameraCamera">
+      <End Role="UserCamera" EntitySet="UserCameraSet" />
+      <End Role="Camera" EntitySet="CameraSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Camera">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CameraPath" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="ControllerID" Relationship="Camera.CameraController" FromRole="Camera" ToRole="Controller" />
+    <NavigationProperty Name="UserCamera" Relationship="Camera.UserCameraCamera" FromRole="Camera" ToRole="UserCamera" />
+  </EntityType>
+  <EntityType Name="Controller">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ControllerPath" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="CameraID" Relationship="Camera.CameraController" FromRole="Controller" ToRole="Camera" />
+  </EntityType>
+  <Association Name="CameraController">
+    <End Type="Camera.Camera" Role="Camera" Multiplicity="1" />
+    <End Type="Camera.Controller" Role="Controller" Multiplicity="1" />
+  </Association>
+  <EntityType Name="UserCamera">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Camera" Relationship="Camera.UserCameraCamera" FromRole="UserCamera" ToRole="Camera" />
+    <Property Name="StartUse" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndUse" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CommonTimeUse" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <Association Name="UserCameraCamera">
+    <End Type="Camera.UserCamera" Role="UserCamera" Multiplicity="*" />
+    <End Type="Camera.Camera" Role="Camera" Multiplicity="*" />
+  </Association>
+</Schema>

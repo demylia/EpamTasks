@@ -1,0 +1,10 @@
+﻿@model  RemoteControl.Models.Camera
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Get))
+    {
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="returnUrl" value="@Request.Url.PathAndQuery" />
+        <input type="submit" class="btn btn-primary" value="Войти,чтобы получить управление" name="waiting" />
+}
+<div id="blockscreen700">@Html.Action("BlockScreen", Model) </div>  
+@Html.Partial("_Player", new Player { camera = Model, width = 700, height = 500 })

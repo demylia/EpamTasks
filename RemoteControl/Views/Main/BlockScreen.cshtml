@@ -1,0 +1,9 @@
+﻿@model Camera
+
+
+@{ string id = "q" + Model.Id;}
+
+@*Block Screen*@
+<span id="@Model.Id" class="@ViewBag.StateColor">@ViewBag.CameraState</span>
+<br />
+<span id="@id" class="badge @ViewBag.QueueColor" > @ViewBag.QueueState</span>

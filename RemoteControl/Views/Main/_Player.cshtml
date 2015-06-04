@@ -1,0 +1,20 @@
+﻿@model Player
+
+
+
+<div id='@Model.camera.Id+333' ></div>
+
+<script type='text/javascript'>
+            jwplayer('@Model.camera.Id+333').setup({
+                file: '@Model.camera.CameraPath',
+                image:  'https://i.ytimg.com/vi/ngElkyQ6Rhs/hqdefault.jpg',
+                rtmp: {
+                    bufferlength: 1
+                },
+                autostart: 'true',
+                width: '@Model.width',
+                height: '@Model.height',
+               //   width: '100%',
+                aspectratio: '16:9'
+            });
+</script>

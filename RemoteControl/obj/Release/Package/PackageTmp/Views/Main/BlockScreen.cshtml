@@ -1,0 +1,15 @@
+﻿@model Camera
+
+@*Block Screen*@
+
+
+   @if (ViewBag.CameraState == "Занята")
+    {
+
+    <span id="@Model.Id" class="badge badge-danger">@ViewBag.CameraState</span>
+    }
+   else
+   {
+    <span id="@Model.Id" class="badge badge-success">@ViewBag.CameraState</span>
+   }
+  

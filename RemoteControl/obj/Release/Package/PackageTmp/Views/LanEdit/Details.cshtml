@@ -1,0 +1,67 @@
+﻿@model RemoteControl.Models.LANController
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LANController</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControllerPath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControllerPath)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserManager)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserManager)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserOwner)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserOwner)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsPublic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsPublic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsWork)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsWork)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,307 @@
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\RemoteControl.dll.config
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\RemoteControl.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\RemoteControl.pdb
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Antlr3.Runtime.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\EntityFramework.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\EntityFramework.SqlServer.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Google.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Web.Infrastructure.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Newtonsoft.Json.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Owin.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.Helpers.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.Mvc.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.Optimization.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.Razor.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.WebPages.Deployment.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.WebPages.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.WebPages.Razor.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\WebGrease.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.Helpers.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.Mvc.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.Optimization.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.Razor.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.WebPages.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.WebPages.Deployment.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\System.Web.WebPages.Razor.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Newtonsoft.Json.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Antlr3.Runtime.pdb
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\EntityFramework.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\EntityFramework.SqlServer.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Google.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\obj\Debug\RemoteControl.csprojResolveAssemblyReference.cache
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\obj\Debug\RemoteControl.dll
+c:\users\komp\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\obj\Debug\RemoteControl.pdb
+D:\DataBase\RemoteControl\RemoteControl\bin\RemoteControl.dll.config
+D:\DataBase\RemoteControl\RemoteControl\bin\RemoteControl.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\RemoteControl.pdb
+D:\DataBase\RemoteControl\RemoteControl\bin\Antlr3.Runtime.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\EntityFramework.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\EntityFramework.SqlServer.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Google.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Web.Infrastructure.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Newtonsoft.Json.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\Owin.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.Helpers.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.Mvc.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.Optimization.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.Razor.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.WebPages.Deployment.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.WebPages.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.WebPages.Razor.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\WebGrease.dll
+D:\DataBase\RemoteControl\RemoteControl\bin\EntityFramework.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\EntityFramework.SqlServer.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.Helpers.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.Mvc.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.Razor.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.WebPages.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.WebPages.Deployment.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.WebPages.Razor.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\System.Web.Optimization.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Newtonsoft.Json.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Antlr3.Runtime.pdb
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Google.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DataBase\RemoteControl\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DataBase\RemoteControl\RemoteControl\obj\Debug\RemoteControl.dll
+D:\DataBase\RemoteControl\RemoteControl\obj\Debug\RemoteControl.pdb
+D:\DataBase\RemoteControl\RemoteControl\obj\Debug\RemoteControl.csprojResolveAssemblyReference.cache
+D:\DataBase\RemoteControl\RemoteControl\bin\WebActivatorEx.dll
+D:\DataBase\RC2\RemoteControl\bin\RemoteControl.dll.config
+D:\DataBase\RC2\RemoteControl\bin\RemoteControl.dll
+D:\DataBase\RC2\RemoteControl\bin\RemoteControl.pdb
+D:\DataBase\RC2\RemoteControl\bin\Antlr3.Runtime.dll
+D:\DataBase\RC2\RemoteControl\bin\Calabonga.Mvc.PagedListExt.dll
+D:\DataBase\RC2\RemoteControl\bin\EntityFramework.dll
+D:\DataBase\RC2\RemoteControl\bin\EntityFramework.SqlServer.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.Google.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Web.Infrastructure.dll
+D:\DataBase\RC2\RemoteControl\bin\Newtonsoft.Json.dll
+D:\DataBase\RC2\RemoteControl\bin\Owin.dll
+D:\DataBase\RC2\RemoteControl\bin\PagedList.dll
+D:\DataBase\RC2\RemoteControl\bin\PagedList.Mvc.dll
+D:\DataBase\RC2\RemoteControl\bin\System.Web.Helpers.dll
+D:\DataBase\RC2\RemoteControl\bin\System.Web.Mvc.dll
+D:\DataBase\RC2\RemoteControl\bin\System.Web.Optimization.dll
+D:\DataBase\RC2\RemoteControl\bin\System.Web.Razor.dll
+D:\DataBase\RC2\RemoteControl\bin\System.Web.WebPages.Deployment.dll
+D:\DataBase\RC2\RemoteControl\bin\System.Web.WebPages.dll
+D:\DataBase\RC2\RemoteControl\bin\System.Web.WebPages.Razor.dll
+D:\DataBase\RC2\RemoteControl\bin\WebActivatorEx.dll
+D:\DataBase\RC2\RemoteControl\bin\WebGrease.dll
+D:\DataBase\RC2\RemoteControl\bin\EntityFramework.xml
+D:\DataBase\RC2\RemoteControl\bin\EntityFramework.SqlServer.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DataBase\RC2\RemoteControl\bin\PagedList.xml
+D:\DataBase\RC2\RemoteControl\bin\PagedList.Mvc.xml
+D:\DataBase\RC2\RemoteControl\bin\System.Web.Helpers.xml
+D:\DataBase\RC2\RemoteControl\bin\System.Web.Mvc.xml
+D:\DataBase\RC2\RemoteControl\bin\System.Web.Razor.xml
+D:\DataBase\RC2\RemoteControl\bin\System.Web.WebPages.xml
+D:\DataBase\RC2\RemoteControl\bin\System.Web.WebPages.Deployment.xml
+D:\DataBase\RC2\RemoteControl\bin\System.Web.WebPages.Razor.xml
+D:\DataBase\RC2\RemoteControl\bin\System.Web.Optimization.xml
+D:\DataBase\RC2\RemoteControl\bin\Newtonsoft.Json.xml
+D:\DataBase\RC2\RemoteControl\bin\Antlr3.Runtime.pdb
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.Google.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DataBase\RC2\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DataBase\RC2\RemoteControl\obj\Debug\RemoteControl.dll
+D:\DataBase\RC2\RemoteControl\obj\Debug\RemoteControl.pdb
+D:\DataBase\RC2\RemoteControl\obj\Debug\RemoteControl.csprojResolveAssemblyReference.cache
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\RemoteControl.dll.config
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\RemoteControl.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\RemoteControl.pdb
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Antlr3.Runtime.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Calabonga.Mvc.PagedListExt.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\EntityFramework.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\EntityFramework.SqlServer.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.Google.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Web.Infrastructure.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Newtonsoft.Json.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Owin.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\PagedList.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\PagedList.Mvc.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.Helpers.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.Mvc.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.Optimization.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.Razor.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.WebPages.Deployment.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.WebPages.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.WebPages.Razor.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\WebActivatorEx.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\WebGrease.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\EntityFramework.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\EntityFramework.SqlServer.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Newtonsoft.Json.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\PagedList.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\PagedList.Mvc.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.Helpers.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.Mvc.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.Razor.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.WebPages.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.WebPages.Deployment.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.WebPages.Razor.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\System.Web.Optimization.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Antlr3.Runtime.pdb
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.Google.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\obj\Debug\RemoteControl.dll
+D:\DataBase\RC2_Copy 26-05-2015\RC2\RemoteControl\obj\Debug\RemoteControl.pdb
+d:\1\RC2_27052015\RemoteControl\bin\RemoteControl.dll.config
+d:\1\RC2_27052015\RemoteControl\bin\RemoteControl.dll
+d:\1\RC2_27052015\RemoteControl\bin\RemoteControl.pdb
+d:\1\RC2_27052015\RemoteControl\bin\Antlr3.Runtime.dll
+d:\1\RC2_27052015\RemoteControl\bin\Calabonga.Mvc.PagedListExt.dll
+d:\1\RC2_27052015\RemoteControl\bin\EntityFramework.dll
+d:\1\RC2_27052015\RemoteControl\bin\EntityFramework.SqlServer.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.Identity.Core.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.SignalR.Core.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.Cookies.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.Facebook.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.Google.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.OAuth.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.Twitter.dll
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Web.Infrastructure.dll
+d:\1\RC2_27052015\RemoteControl\bin\Newtonsoft.Json.dll
+d:\1\RC2_27052015\RemoteControl\bin\Ninject.dll
+d:\1\RC2_27052015\RemoteControl\bin\Ninject.Web.Common.dll
+d:\1\RC2_27052015\RemoteControl\bin\Ninject.Web.Mvc.dll
+d:\1\RC2_27052015\RemoteControl\bin\Owin.dll
+d:\1\RC2_27052015\RemoteControl\bin\PagedList.dll
+d:\1\RC2_27052015\RemoteControl\bin\PagedList.Mvc.dll
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.Helpers.dll
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.Mvc.dll
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.Optimization.dll
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.Razor.dll
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.WebPages.Deployment.dll
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.WebPages.dll
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.WebPages.Razor.dll
+d:\1\RC2_27052015\RemoteControl\bin\WebActivatorEx.dll
+d:\1\RC2_27052015\RemoteControl\bin\WebGrease.dll
+d:\1\RC2_27052015\RemoteControl\bin\EntityFramework.xml
+d:\1\RC2_27052015\RemoteControl\bin\EntityFramework.SqlServer.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.Identity.Core.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.Identity.Owin.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.SignalR.Core.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.Cookies.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.OAuth.xml
+d:\1\RC2_27052015\RemoteControl\bin\Newtonsoft.Json.xml
+d:\1\RC2_27052015\RemoteControl\bin\Ninject.xml
+d:\1\RC2_27052015\RemoteControl\bin\Ninject.Web.Common.xml
+d:\1\RC2_27052015\RemoteControl\bin\Ninject.Web.Mvc.xml
+d:\1\RC2_27052015\RemoteControl\bin\PagedList.xml
+d:\1\RC2_27052015\RemoteControl\bin\PagedList.Mvc.xml
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.Helpers.xml
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.Mvc.xml
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.Razor.xml
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.WebPages.xml
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.WebPages.Deployment.xml
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.WebPages.Razor.xml
+d:\1\RC2_27052015\RemoteControl\bin\System.Web.Optimization.xml
+d:\1\RC2_27052015\RemoteControl\bin\Antlr3.Runtime.pdb
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.Facebook.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.Google.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.Twitter.xml
+d:\1\RC2_27052015\RemoteControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+d:\1\RC2_27052015\RemoteControl\obj\Debug\RemoteControl.dll
+d:\1\RC2_27052015\RemoteControl\obj\Debug\RemoteControl.pdb
+d:\1\RC2_27052015\RemoteControl\obj\Debug\RemoteControl.csprojResolveAssemblyReference.cache

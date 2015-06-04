@@ -1,0 +1,27 @@
+﻿@model IEnumerable<RemoteControl.Models.Camera>
+
+@{AjaxOptions ajaxOpts = new AjaxOptions()
+      {
+          UpdateTargetId = "but",
+          Url = Url.Action("Connect", Model)
+
+      };
+}
+@using (Ajax.BeginForm(ajaxOpts))
+{
+    <input type="submit" class="btn btn-danger disabled" value="Lovely cameras" name="waiting" />
+}
+<div id="but">
+    @foreach (var cam in Model)
+    {
+
+        <div class="col-sm-12">
+
+            <div id="link">@Html.ActionLink(cam.Name, "Detail", "Main", cam, null) </div>
+            <div id="blockscreen130">@Html.Action("BlockScreen", "Main", cam) </div>
+            <div id="player">@Html.Partial("_Player", new Player { camera = cam, height = 130, width = 130 })</div>
+            <br />
+
+        </div>
+    }
+</div>

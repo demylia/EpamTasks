@@ -1,0 +1,48 @@
+﻿@using RemoteControl.Models;
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = "Manage Account";
+    
+}
+
+<h2 class="center-block">@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div class="row">
+    <div  class="col-md-3 col-sm-3" >
+        <h3 class="text-success">Category</h3>
+        <ul class="nav nav-tabs nav-stacked">
+
+            <li>
+                @Html.ActionLink("Change the password", "Manage")
+            </li>
+                <li>
+                    @Ajax.ActionLink("My history", "History", "User", 
+                         new AjaxOptions { UpdateTargetId = "category" })
+                </li>
+            <li>
+                @Ajax.ActionLink("My cameras", "Camera", "User", 
+                        new AjaxOptions { UpdateTargetId = "category" })
+            </li>
+
+        </ul>
+    </div>
+        <div id="category" class="col-md-9 col-sm-9 col-xs-9">
+            @if (ViewBag.HasLocalPassword)
+            {
+                @Html.Partial("_ChangePasswordPartial")
+            }
+            else
+            {
+                @Html.Partial("_SetPasswordPartial")
+            }
+
+            <section id="externalLogins">
+                @Html.Action("RemoveAccountList")
+                @Html.Partial("_ExternalLoginsListPartial", new { Action = "LinkLogin", ReturnUrl = ViewBag.ReturnUrl })
+            </section>
+        </div>
+    </div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

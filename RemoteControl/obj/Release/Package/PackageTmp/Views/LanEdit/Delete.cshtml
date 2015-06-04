@@ -1,0 +1,73 @@
+﻿@model RemoteControl.Models.LANController
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LANController</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ControllerPath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ControllerPath)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserManager)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserManager)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserOwner)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserOwner)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsPublic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsPublic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsWork)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsWork)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

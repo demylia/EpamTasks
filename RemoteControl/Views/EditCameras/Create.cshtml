@@ -1,0 +1,115 @@
+﻿@model RemoteControl.Models.Camera
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var htmlattr = new { @style = "width:100%" };
+}
+
+<h2>Create</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>Camera</h4>
+                <hr />
+                @Html.ValidationSummary(true)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.Name, new { @value = "cam1" })@*doesn't fill ??*@
+                        @*  @Html.TextBox("cam1")*@
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>
+                </div>
+                <div class="col-md-12 col-md-offset-1" >
+                    @Html.Label("Template: rtpm : // [ip-adress] : [port] / live / [nameYourStream] ", new { @style = "color:red" })
+                 </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.CameraPath, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                           
+                            @Html.TextBox("CameraPath", "rtmp://192.168.100.61:1935/live/livestream",new { @style = "width:100%" })@* htmlAttributes: htmlattr )*@
+
+
+                            @Html.ValidationMessageFor(model => model.CameraPath)
+                        </div>
+                    </div>
+
+
+                    <div>
+                        @Html.HiddenFor(model => model.State)
+
+                    </div>
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Category, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.Category, EnumHelper.GetSelectList(typeof(Category)))
+                            @Html.ValidationMessageFor(model => model.Category)
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ControllerID_Id, "ControllerID_Id", new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("ControllerID_Id", String.Empty)
+                            @Html.ValidationMessageFor(model => model.ControllerID_Id)
+                        </div>
+                    </div>
+
+
+                    <div>
+                        @Html.HiddenFor(model => model.CameraAction)
+
+                    </div>
+
+
+
+                    <div>
+                        @Html.HiddenFor(model => model.UserManager)
+
+                    </div>
+
+
+                    <div>
+                        @Html.HiddenFor(model => model.UserOwner)
+
+                    </div>
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.IsPublic, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.CheckBoxFor(model => model.IsPublic, new { @checked = "checked" })
+                            @Html.ValidationMessageFor(model => model.IsPublic)
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.IsWork, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.CheckBoxFor(model => model.IsWork, new { @checked = "checked" })
+                            @Html.ValidationMessageFor(model => model.IsWork)
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Create" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

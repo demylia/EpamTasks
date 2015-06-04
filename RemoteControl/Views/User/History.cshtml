@@ -1,0 +1,23 @@
+﻿
+@{
+
+    Layout = null;
+}
+<h2 class="text-success" style="text-align:center">History of using cameras</h2>
+@Html.Action("HistoryList")
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            $(document).on("click", "#contentPager a[href]", function () {
+                $.ajax({
+                    url: $(this).attr("href"),
+                    type: 'GET',
+                    cache: false,
+                    success: function (result) {
+                        $('#content').html(result);
+                    }
+                });
+                return false;
+            });
+        });
+    </script>

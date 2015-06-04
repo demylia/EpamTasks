@@ -1,0 +1,16 @@
+﻿@model  RemoteControl.Models.Camera
+
+    @{AjaxOptions ajaxOpts = new AjaxOptions()
+      {
+          UpdateTargetId = "but",
+          Url = Url.Action("Connect", Model)
+          
+      };
+    }
+    @using (Ajax.BeginForm(ajaxOpts))
+{
+    <input id="connect"  type="submit" class="btn btn-success" value="Connect" name="waiting" />
+}
+
+    <div id="blockscreen700">@Html.Action("BlockScreen", Model) </div>  
+    @Html.Partial("_Player", new Player { camera = Model, width = 700, height = 500 })

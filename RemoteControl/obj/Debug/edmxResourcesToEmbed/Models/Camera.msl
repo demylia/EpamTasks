@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CameraStoreContainer" CdmEntityContainer="CameraContainer">
+    <EntitySetMapping Name="CameraSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Camera.Camera)">
+        <MappingFragment StoreEntitySet="CameraSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CameraPath" ColumnName="CameraPath" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ControllerSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Camera.Controller)">
+        <MappingFragment StoreEntitySet="ControllerSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ControllerPath" ColumnName="ControllerPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserCameraSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Camera.UserCamera)">
+        <MappingFragment StoreEntitySet="UserCameraSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StartUse" ColumnName="StartUse" />
+          <ScalarProperty Name="EndUse" ColumnName="EndUse" />
+          <ScalarProperty Name="CommonTimeUse" ColumnName="CommonTimeUse" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CameraController" TypeName="Camera.CameraController" StoreEntitySet="CameraSet">
+      <EndProperty Name="Controller">
+        <ScalarProperty Name="Id" ColumnName="ControllerID_Id" />
+      </EndProperty>
+      <EndProperty Name="Camera">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UserCameraCamera" TypeName="Camera.UserCameraCamera" StoreEntitySet="UserCameraCamera">
+      <EndProperty Name="UserCamera">
+        <ScalarProperty Name="Id" ColumnName="UserCamera_Id" />
+      </EndProperty>
+      <EndProperty Name="Camera">
+        <ScalarProperty Name="Id" ColumnName="Camera_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

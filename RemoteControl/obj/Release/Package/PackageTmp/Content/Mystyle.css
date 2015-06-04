@@ -1,0 +1,50 @@
+﻿
+/*Player*/
+ #blockscreen300 {
+                position: absolute;
+                z-index: 99;
+                width: 100%;
+                height: 100%;
+                border: 0px solid red;
+            }
+#blockscreen700 {
+                position: absolute;
+                z-index: 99;
+                width: 700px;
+                height: 500px;
+                border: 0px solid red;
+          }
+#blockscreen130 {
+                position: absolute;
+                z-index: 99;
+                width: 130px;
+                height: 130px;
+                border: 0px solid red;
+          }
+/*Controls*/
+ .ctrl {
+            text-align: center;
+            background-image: none;
+            width:50px;
+            height:50px;
+            display: inline;
+            padding: 20px;
+            border: 1px solid gray;
+            color: blue;
+            position: absolute;
+            z-index: 100;
+        }
+.detailref {
+            position: absolute;
+            width: 100%;
+                height: 100%;
+                border: 0px solid gray;
+}
+
+/*My badge*/
+.badge-success{
+      background-color: #37CB39;
+}
+.badge-danger{
+      background-color: red;
+}

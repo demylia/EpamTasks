@@ -1,0 +1,60 @@
+﻿@model  RemoteControl.Models.Camera
+    @{
+        AjaxOptions ajaxOpts = new AjaxOptions()
+         {
+          UpdateTargetId = "but",
+          Url = Url.Action("Disconnect", Model)
+          };
+
+        AjaxOptions ajaxOpts2 = new AjaxOptions()
+         {
+             UpdateTargetId = "videochat",
+             Url = Url.Action("Videochat", "User", new Player { camera = Model, width = 200, height = 200 }),
+         };
+     }
+
+    @using (Ajax.BeginForm(ajaxOpts))
+    {
+        <input id="disconnect" type="submit" class="btn btn-danger" value="Disconnect" name="waiting" />
+    }
+    <div id="blockscreen700">
+        @Html.Action("BlockScreen", Model) 
+    </div>
+         @Html.Partial("_Player", new Player { camera = Model, width = 700, height = 500 })
+                
+    @foreach (var button in Model.LANController.Buttons)
+    {
+               @*  Проверить href , чтобы не было переходa
+                    <a href=@Url.Action("Click", new { out_id=3}) *@
+    <a href="#click" onclick="PlayAndClick(@button.Out)" class="ctrl" style="left: @button.Left; top: @button.Top;right: @button.Right; bottom: @button.Bottom;">
+    </a>
+    }
+
+               
+   @* @using (Ajax.BeginForm(ajaxOpts2))
+    {
+        <input type="submit" class="btn btn-success" value="Videochat" name="waiting" />
+    }*@
+       <div class="input-append">
+              <input class="span2" id="appendedInputButton" size="16" type="text"><button class="btn btn-success" type="button">Send a message</button>
+       </div>
+
+       <div id="videochat">                    
+       </div>
+    
+
+       <audio id="myTune"> 
+          <source src="@Url.Content("~/Content/click.mp3")">
+       </audio>
+
+       <script type="text/javascript">
+            function PlayAndClick(out_id) {
+                document.getElementById("myTune").play();
+                $.get('@Url.Action("Click", new { out_id = 3 })'); //  $.get("http://82.209.194.198/oc?" + out_id);//82.209.194.198
+                return true;
+            }
+       </script>
+
+
+
+

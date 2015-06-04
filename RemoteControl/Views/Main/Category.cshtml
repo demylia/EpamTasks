@@ -1,0 +1,11 @@
+﻿@model IEnumerable<RemoteControl.Models.Camera>
+
+
+@foreach (var cam in Model)
+{
+    <div class="col-sm-4">
+        
+                <div id="player">@Html.Partial("_PlayerForIndex", cam)</div>
+                <br />
+    </div>
+}

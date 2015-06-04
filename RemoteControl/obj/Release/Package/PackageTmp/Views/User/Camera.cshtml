@@ -1,0 +1,47 @@
+﻿@model IEnumerable<RemoteControl.Models.Camera>
+<script src="http://jwpsrv.com/library/S7jpVP1TEeO+aCIAC0MJiQ.js"></script>
+@Scripts.Render("~/bundles/player")
+
+
+@*
+    <div class="row ">
+        <div class="col-sm-5 col-sm-offset-1" >
+            <a href=@Url.Action("Create", "EditCameras") class="btn btn-success ">
+                Add a camera
+            </a>
+        </div>
+        <div class="col-sm-5 ">
+            <a href=@Url.Action( "Index","EditCameras") class="btn btn-danger ">
+                Edit cameras
+            </a>
+
+        </div>
+        </div>*@
+
+    
+        <div class="row">
+            <div class="col-sm-12 thumbnail" style="text-align:center">
+                <div class="btn btn-group">
+
+                    <a href=@Url.Action("Create", "EditCameras") class="btn  ">
+                        Add a camera
+                    </a>
+
+                    <a href=@Url.Action("Create", "LanEdit") class="btn  ">
+                        Add a LanController
+                    </a>
+
+
+                    <a href=@Url.Action( "Index","EditCameras") class="btn ">
+                        Edit Cameras
+                    </a>
+
+                    <a href=@Url.Action( "Index","LanEdit") class="btn  ">
+                        Edit  LanControllers
+                    </a>
+                </div>
+            </div>
+       
+</div>
+
+           @Html.Action("Category", "Main", new { cameras = Model})

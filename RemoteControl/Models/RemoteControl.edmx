@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="RemoteControlModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="RemoteControlModelStoreContainer">
+    <EntitySet Name="Camera" EntityType="RemoteControlModel.Store.Camera" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LANController" EntityType="RemoteControlModel.Store.LANController" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserCamera" EntityType="RemoteControlModel.Store.UserCamera" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ButtonSet" EntityType="RemoteControlModel.Store.ButtonSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="QueueSet" EntityType="RemoteControlModel.Store.QueueSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="CameraLANController" Association="RemoteControlModel.Store.CameraLANController">
+      <End Role="Camera" EntitySet="Camera" />
+      <End Role="LANController" EntitySet="LANController" />
+    </AssociationSet>
+    <AssociationSet Name="CameraUserCamera" Association="RemoteControlModel.Store.CameraUserCamera">
+      <End Role="Camera" EntitySet="Camera" />
+      <End Role="UserCamera" EntitySet="UserCamera" />
+    </AssociationSet>
+    <AssociationSet Name="LANControllerButton" Association="RemoteControlModel.Store.LANControllerButton">
+      <End Role="LANController" EntitySet="LANController" />
+      <End Role="Button" EntitySet="ButtonSet" />
+    </AssociationSet>
+    <AssociationSet Name="CameraQueue" Association="RemoteControlModel.Store.CameraQueue">
+      <End Role="Camera" EntitySet="Camera" />
+      <End Role="Queue" EntitySet="QueueSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Camera">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CameraPath" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+    <Property Name="Category" Type="int" Nullable="false" />
+    <Property Name="ControllerID_Id" Type="int" Nullable="true" />
+    <Property Name="CameraAction" Type="int" Nullable="false" />
+    <Property Name="UserManager" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="UserOwner" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsPublic" Type="bit" Nullable="false" />
+    <Property Name="IsWork" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LANController">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ControllerPath" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="UserManager" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="UserOwner" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsPublic" Type="bit" Nullable="false" />
+    <Property Name="IsWork" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserCamera">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StartUse" Type="datetime" Nullable="true" />
+    <Property Name="EndUse" Type="datetime" Nullable="true" />
+    <Property Name="CommonTimeUse" Type="time" Nullable="true" />
+    <Property Name="UserId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CameraId" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ButtonSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LANControllerId" Type="int" Nullable="false" />
+    <Property Name="Left" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Right" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Top" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Bottom" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Width" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Height" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Out" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QueueSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CameraId" Type="int" Nullable="true" />
+  </EntityType>
+  <Association Name="CameraLANController">
+    <End Role="Camera" Type="RemoteControlModel.Store.Camera" Multiplicity="*" />
+    <End Role="LANController" Type="RemoteControlModel.Store.LANController" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="LANController">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Camera">
+        <PropertyRef Name="ControllerID_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CameraUserCamera">
+    <End Role="Camera" Type="RemoteControlModel.Store.Camera" Multiplicity="1" />
+    <End Role="UserCamera" Type="RemoteControlModel.Store.UserCamera" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Camera">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserCamera">
+        <PropertyRef Name="CameraId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LANControllerButton">
+    <End Role="LANController" Type="RemoteControlModel.Store.LANController" Multiplicity="1" />
+    <End Role="Button" Type="RemoteControlModel.Store.ButtonSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LANController">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Button">
+        <PropertyRef Name="LANControllerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CameraQueue">
+    <End Role="Camera" Type="RemoteControlModel.Store.Camera" Multiplicity="0..1" />
+    <End Role="Queue" Type="RemoteControlModel.Store.QueueSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Camera">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Queue">
+        <PropertyRef Name="CameraId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RemoteControlModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="RCContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Camera" EntityType="RemoteControlModel.Camera" />
+          <EntitySet Name="LANController" EntityType="RemoteControlModel.LANController" />
+          <EntitySet Name="UserCamera" EntityType="RemoteControlModel.UserCamera" />
+          <AssociationSet Name="CameraLANController" Association="RemoteControlModel.CameraLANController">
+            <End Role="Camera" EntitySet="Camera" />
+            <End Role="LANController" EntitySet="LANController" />
+          </AssociationSet>
+          <AssociationSet Name="CameraUserCamera" Association="RemoteControlModel.CameraUserCamera">
+            <End Role="Camera" EntitySet="Camera" />
+            <End Role="UserCamera" EntitySet="UserCamera" />
+          </AssociationSet>
+          <EntitySet Name="ButtonSet" EntityType="RemoteControlModel.Button" />
+          <AssociationSet Name="LANControllerButton" Association="RemoteControlModel.LANControllerButton">
+            <End Role="LANController" EntitySet="LANController" />
+            <End Role="Button" EntitySet="ButtonSet" />
+          </AssociationSet>
+          <EntitySet Name="QueueSet" EntityType="RemoteControlModel.Queue" />
+          <AssociationSet Name="CameraQueue" Association="RemoteControlModel.CameraQueue">
+            <End Role="Camera" EntitySet="Camera" />
+            <End Role="Queue" EntitySet="QueueSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Camera">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CameraPath" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="RemoteControlModel.State" Nullable="false" />
+          <Property Name="Category" Type="RemoteControlModel.Category" Nullable="false" />
+          <NavigationProperty Name="LANController" Relationship="RemoteControlModel.CameraLANController" FromRole="Camera" ToRole="LANController" />
+          <Property Name="ControllerID_Id" Type="Int32" Nullable="true" />
+          <Property Name="CameraAction" Type="RemoteControlModel.CameraAction" Nullable="false" />
+          <Property Name="UserManager" Type="String" Nullable="true" a:SetterAccess="Public" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" a:GetterAccess="Public" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="UserCamera" Relationship="RemoteControlModel.CameraUserCamera" FromRole="Camera" ToRole="UserCamera" />
+          <Property Name="UserOwner" Type="String" Nullable="false" />
+          <Property Name="IsPublic" Type="Boolean" Nullable="false" />
+          <Property Name="IsWork" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Queue" Relationship="RemoteControlModel.CameraQueue" FromRole="Camera" ToRole="Queue" />
+        </EntityType>
+        <EntityType Name="LANController">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ControllerPath" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Camera" Relationship="RemoteControlModel.CameraLANController" FromRole="LANController" ToRole="Camera" />
+          <Property Name="UserManager" Type="String" Nullable="true" />
+          <Property Name="UserOwner" Type="String" Nullable="false" />
+          <Property Name="IsPublic" Type="Boolean" Nullable="false" />
+          <Property Name="IsWork" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Buttons" Relationship="RemoteControlModel.LANControllerButton" FromRole="LANController" ToRole="Button" />
+        </EntityType>
+        <EntityType Name="UserCamera">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="StartUse" Nullable="true" Precision="3" Type="DateTime" />
+          <Property Name="EndUse" Nullable="true" Precision="3" Type="DateTime" />
+          <Property Name="CommonTimeUse" Nullable="true" Type="Time" />
+          <Property Name="UserId" Nullable="false" Type="String" />
+          <NavigationProperty Name="Camera" Relationship="RemoteControlModel.CameraUserCamera" FromRole="UserCamera" ToRole="Camera" />
+          <Property Name="CameraId" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" Nullable="false" />
+        </EntityType>
+        <EnumType Name="Category">
+          <Member Name="Streams" />
+          <Member Name="Robots" />
+          <Member Name="Machines" />
+        </EnumType>
+        <EnumType Name="State">
+          <Member Name="NotUsed" />
+          <Member Name="Used" />
+        </EnumType>
+        <Association Name="CameraLANController">
+          <End Type="RemoteControlModel.Camera" Role="Camera" Multiplicity="*" />
+          <End Type="RemoteControlModel.LANController" Role="LANController" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="LANController">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Camera">
+              <PropertyRef Name="ControllerID_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EnumType Name="CameraAction">
+          <Member Name="Connect" />
+          <Member Name="Disconnect" />
+          <Member Name="AddToQueue" />
+        </EnumType>
+        <Association Name="CameraUserCamera">
+          <End Type="RemoteControlModel.Camera" Role="Camera" Multiplicity="1" >
+          </End>
+          <End Type="RemoteControlModel.UserCamera" Role="UserCamera" Multiplicity="*" >
+          </End>
+          <ReferentialConstraint>
+            <Principal Role="Camera">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserCamera">
+              <PropertyRef Name="CameraId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Button">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="LANController" Relationship="RemoteControlModel.LANControllerButton" FromRole="Button" ToRole="LANController" />
+          <Property Name="LANControllerId" Type="Int32" Nullable="false" />
+          <Property Name="Left" Type="String" Nullable="false" />
+          <Property Name="Right" Type="String" Nullable="false" />
+          <Property Name="Top" Type="String" Nullable="false" />
+          <Property Name="Bottom" Type="String" Nullable="false" />
+          <Property Name="Width" Type="String" Nullable="false" />
+          <Property Name="Height" Type="String" Nullable="false" />
+          <Property Name="Out" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="LANControllerButton">
+          <End Type="RemoteControlModel.LANController" Role="LANController" Multiplicity="1" />
+          <End Type="RemoteControlModel.Button" Role="Button" Multiplicity="*" >
+          </End>
+          <ReferentialConstraint>
+            <Principal Role="LANController">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Button">
+              <PropertyRef Name="LANControllerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Queue">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" Nullable="false" />
+          <NavigationProperty Name="Camera" Relationship="RemoteControlModel.CameraQueue" FromRole="Queue" ToRole="Camera" />
+          <Property Name="CameraId" Type="Int32" Nullable="true" />
+        </EntityType>
+        <Association Name="CameraQueue">
+          <End Type="RemoteControlModel.Camera" Role="Camera" Multiplicity="0..1" />
+          <End Type="RemoteControlModel.Queue" Role="Queue" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Camera">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Queue">
+              <PropertyRef Name="CameraId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RemoteControlModelStoreContainer" CdmEntityContainer="RCContext">
+    <EntitySetMapping Name="Camera">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.Camera)">
+        <MappingFragment StoreEntitySet="Camera">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CameraPath" ColumnName="CameraPath" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="ControllerID_Id" ColumnName="ControllerID_Id" />
+          <ScalarProperty Name="CameraAction" ColumnName="CameraAction" />
+          <ScalarProperty Name="UserManager" ColumnName="UserManager" />
+          <ScalarProperty Name="UserOwner" ColumnName="UserOwner" />
+          <ScalarProperty Name="IsPublic" ColumnName="IsPublic" />
+          <ScalarProperty Name="IsWork" ColumnName="IsWork" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LANController">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.LANController)">
+        <MappingFragment StoreEntitySet="LANController">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ControllerPath" ColumnName="ControllerPath" />
+          <ScalarProperty Name="UserManager" ColumnName="UserManager" />
+          <ScalarProperty Name="UserOwner" ColumnName="UserOwner" />
+          <ScalarProperty Name="IsPublic" ColumnName="IsPublic" />
+          <ScalarProperty Name="IsWork" ColumnName="IsWork" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserCamera">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.UserCamera)">
+        <MappingFragment StoreEntitySet="UserCamera">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StartUse" ColumnName="StartUse" />
+          <ScalarProperty Name="EndUse" ColumnName="EndUse" />
+          <ScalarProperty Name="CommonTimeUse" ColumnName="CommonTimeUse" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CameraId" ColumnName="CameraId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ButtonSet">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.Button)">
+        <MappingFragment StoreEntitySet="ButtonSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LANControllerId" ColumnName="LANControllerId" />
+          <ScalarProperty Name="Left" ColumnName="Left" />
+          <ScalarProperty Name="Right" ColumnName="Right" />
+          <ScalarProperty Name="Top" ColumnName="Top" />
+          <ScalarProperty Name="Bottom" ColumnName="Bottom" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Out" ColumnName="Out" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QueueSet">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.Queue)">
+        <MappingFragment StoreEntitySet="QueueSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="CameraId" ColumnName="CameraId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

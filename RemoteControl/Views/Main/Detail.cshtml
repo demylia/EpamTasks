@@ -1,0 +1,99 @@
+﻿@using RemoteControl.Models
+
+@model RemoteControl.Models.Camera
+@{
+    ViewBag.Title = "Detail";
+    
+
+}
+
+@Scripts.Render("~/bundles/lan")
+@Scripts.Render("~/bundles/player")
+<script type="text/javascript">
+
+    $(function () {
+        //connect to MyHub
+        var myHub = $.connection.myHub;
+
+        //methods on client side
+        myHub.client.changeState = function (id, state, color, butId, message) {
+
+
+            $(id).text(state);
+            $(id).css("background", color);
+
+            //doesn't work this block
+
+            $(butId).attr('value', message);
+            $(butId).css("background", color);
+
+        };
+        myHub.client.changeButton = function (id, message, color, newId, serverUserName) {
+
+            var userName = "@User.Identity.Name";
+
+            if (userName == serverUserName || serverUserName == "All") {
+                $(id).attr('value', message);
+                $(id).css("background", color);
+                $(id).attr('id', newId);
+            }
+       
+        };
+        myHub.client.changeQueue = function (id, message, color) {
+
+            $(id).text(message);
+            $(id).css("background", color);
+
+        };
+
+        myHub.client.userConnected = function (message) {
+            $("#container").append("<div>" + message + "</div>");
+        };
+        //open connection
+        $.connection.hub.start().done(function () {
+
+            //invoke method on server side
+            @*$('#disconnect').click(function () {
+                myHub.server.disconnect('@Model.Id');
+            })
+            $('#connect').click(function () {
+                myHub.server.connect('@Model.Id');
+            })
+            $('#takeToQueue').click(function () {
+                myHub.server.takeToQueue('@Model.Id');
+            })
+            $('#quitFromQueue').click(function () {
+                myHub.server.quitFromQueue('@Model.Id');
+            })*@
+            $(document).on('click', '#disconnect', function () {
+                myHub.server.disconnect('@Model.Id');
+            });
+            $(document).on('click', '#connect', function () {
+                myHub.server.connect('@Model.Id');
+            });
+            $(document).on('click', '#takeToQueue', function () {
+                myHub.server.takeToQueue('@Model.Id');
+            });
+            $(document).on('click', '#quitFromQueue', function () {
+                myHub.server.quitFromQueue('@Model.Id');
+            });
+
+
+            });
+    });
+
+
+</script>
+<h3 class="text-success">@Model.Name</h3>
+
+@*Возможно закоментировать, если будет грузить плеер*@
+            <script src="http://jwpsrv.com/library/S7jpVP1TEeO+aCIAC0MJiQ.js"></script>
+
+
+
+@*@Html.Partial("_Player", new Player { camera = Model, width = 700, height = 500})*@
+<div class="row">
+
+    <div class="col-sm-8" id="but"> @Html.Action("GetPlayer", Model) </div>
+    <div class="col-sm-4"> @Html.Action("FavoritesCameras", "User", Model) </div>
+</div>

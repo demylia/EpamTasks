@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RemoteControlModelStoreContainer" CdmEntityContainer="RCContext">
+    <EntitySetMapping Name="Camera">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.Camera)">
+        <MappingFragment StoreEntitySet="Camera">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CameraPath" ColumnName="CameraPath" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="ControllerID_Id" ColumnName="ControllerID_Id" />
+          <ScalarProperty Name="CameraAction" ColumnName="CameraAction" />
+          <ScalarProperty Name="UserManager" ColumnName="UserManager" />
+          <ScalarProperty Name="UserOwner" ColumnName="UserOwner" />
+          <ScalarProperty Name="IsPublic" ColumnName="IsPublic" />
+          <ScalarProperty Name="IsWork" ColumnName="IsWork" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LANController">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.LANController)">
+        <MappingFragment StoreEntitySet="LANController">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ControllerPath" ColumnName="ControllerPath" />
+          <ScalarProperty Name="UserManager" ColumnName="UserManager" />
+          <ScalarProperty Name="UserOwner" ColumnName="UserOwner" />
+          <ScalarProperty Name="IsPublic" ColumnName="IsPublic" />
+          <ScalarProperty Name="IsWork" ColumnName="IsWork" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserCamera">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.UserCamera)">
+        <MappingFragment StoreEntitySet="UserCamera">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StartUse" ColumnName="StartUse" />
+          <ScalarProperty Name="EndUse" ColumnName="EndUse" />
+          <ScalarProperty Name="CommonTimeUse" ColumnName="CommonTimeUse" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CameraId" ColumnName="CameraId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ButtonSet">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.Button)">
+        <MappingFragment StoreEntitySet="ButtonSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LANControllerId" ColumnName="LANControllerId" />
+          <ScalarProperty Name="Left" ColumnName="Left" />
+          <ScalarProperty Name="Right" ColumnName="Right" />
+          <ScalarProperty Name="Top" ColumnName="Top" />
+          <ScalarProperty Name="Bottom" ColumnName="Bottom" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Out" ColumnName="Out" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QueueSet">
+      <EntityTypeMapping TypeName="IsTypeOf(RemoteControlModel.Queue)">
+        <MappingFragment StoreEntitySet="QueueSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="CameraId" ColumnName="CameraId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
